@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "storemapper/storemapper-widget",
+  "version": "0.1.0",
+  "title": "Storemapper",
+  "category": "widgets",
+  "icon": "location-alt",
+  "description": "Adds storemapper embed code",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "storemapper-widget",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
